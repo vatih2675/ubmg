@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+::-webkit-scrollbar{
+  display: none;
+}
+
+/* .headTitle{
+  background-image: url("../public/images/ubmg.jpg");
+  background-size: cover;
+  background-position: center;
+} */
