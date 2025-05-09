@@ -13,10 +13,17 @@ export default function Fasilitas({fasilitas}){
         </h6>
         <div className="flex justify-center flex-wrap items-start gap-5 mt-5">
           {fasilitas.map((fas, index) => (
-            <div key={index} className="w-3/12 cursor-pointer text-cyan-500 hover:text-white bg-cyan-50 hover:bg-cyan-500 transition-all duration-300 hover:scale-105 hover:shadow-md">
-              <div className="w-full aspect-square bg-gray-100 flex justify-center items-center">
+            <div
+              key={index}
+              className="w-3/12 cursor-pointer text-cyan-500 hover:text-white bg-cyan-50 hover:bg-cyan-500 transition-all duration-300 hover:scale-105 hover:shadow-md"
+            >
+              <div className="w-full bg-gray-100 flex justify-center items-center">
                 {fas.foto != "" ? (
-                  <img src={"images/galeri/"+fas.foto} alt={fas.judul} className="w-full object-cover object-center" />
+                  <img
+                    src={"images/galeri/" + fas.foto}
+                    alt={fas.judul}
+                    className="w-full object-cover object-center"
+                  />
                 ) : (
                   <i className="bi-buildings text-9xl"></i>
                 )}

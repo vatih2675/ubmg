@@ -146,23 +146,23 @@ const Struktur = [
 const dataFasilitas = [
   {
     judul: "Laboratorium",
-    foto: "",
+    foto: "fasilitas-lab.jpg",
   },
   {
     judul: "Sport Center",
-    foto: "",
+    foto: "fasilitas-sport-center.jpg",
   },
   {
     judul: "Perpustakaan",
-    foto: "",
+    foto: "fasilitas-perpustakaan.jpg",
   },
   {
     judul: "Rektorat",
-    foto: "",
+    foto: "fasilitas-rektorat.jpg",
   },
   {
     judul: "Business Center",
-    foto: "",
+    foto: "fasilitas-perpustakaan.jpg",
   },
 ];
 
