@@ -56,7 +56,7 @@ export default function Header(props){
           </div>
         ))}
         <NavLink
-          to={"http://pmb.ubm.edufecta.com"}
+          to={"https://pmb.ubm.educampus.id/"}
           target="_blank"
           className="h-18 flex justify-center items-center gap-2 px-8 bg-cyan-500 text-white hover:bg-cyan-400 transition-all duration-300"
         >
