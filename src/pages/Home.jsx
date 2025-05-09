@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 export default function Home({pimpinan, testimonial}){
   return (
     <main>
-      <section className="relative w-full h-100 bg-gradient-to-r from-cyan-300/70 to-cyan-500/30 flex justify-center items-center overflow-hidden">
+      <section className="relative w-full h-100 bg-gradient-to-r from-cyan-300/70 to-cyan-500/30 flex justify-center items-center overflow-hidden cursor-default">
         <div className="w-full h-full flex flex-col justify-center items-center">
           <img src="images/logo-border-white.png" alt="UBMG" className="w-40" />
           <h1 className="uppercase text-4xl font-bold text-white text-shadow-md">
