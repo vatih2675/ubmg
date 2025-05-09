@@ -3,16 +3,16 @@ import { NavLink } from "react-router-dom";
 export default function Home({pimpinan, testimonial}){
   return (
     <main>
-      <section className="w-full h-100 bg-gradient-to-r from-cyan-300 to-cyan-500">
+      <section className="relative w-full h-100 bg-gradient-to-r from-cyan-300/70 to-cyan-500/30 flex justify-center items-center overflow-hidden">
         <div className="w-full h-full flex flex-col justify-center items-center">
-          <img src="images/logo.png" alt="UBMG" className="w-20" />
+          <img src="images/logo-border-white.png" alt="UBMG" className="w-40" />
           <h1 className="uppercase text-4xl font-bold text-white text-shadow-md">
             UNIVERSITAS BINA MANDIRI GORONTALO
           </h1>
           <p className="text-white text-xl font-bold text-shadow-md">
             UNIVERSITAS PROGRESIF DAN BERKINERJA BAIK DI GORONTALO
           </p>
-          <p className="text-white text-lg italic mb-10 text-shadow-md">
+          <p className="text-white text-lg italic mb-5 text-shadow-md">
             Unggul, Profesional dan Mengglobal
           </p>
           <p className="text-white">
@@ -20,6 +20,11 @@ export default function Home({pimpinan, testimonial}){
           </p>
           <p className="text-white">Yang Populer di Dunia Kerja</p>
         </div>
+        <img
+          src="images/ubmg.jpg"
+          alt="UMBG"
+          className="absolute left-0 right-0 w-full object-center -z-1"
+        />
       </section>
       <section className="p-10 cursor-default">
         <h6 className="text-cyan-500 flex justify-center items-end gap-2">
@@ -75,7 +80,11 @@ export default function Home({pimpinan, testimonial}){
           <i className="bi-filter-right rotate-180"></i>
         </h6>
         <div className="flex justify-center items-start gap-10">
-          <img src="images/ubmg.jpg" alt="UBMG" className="w-6/12 h-110 object-cover object-center shadow-md" />
+          <img
+            src="images/ubmg.jpg"
+            alt="UBMG"
+            className="w-6/12 h-110 object-cover object-center shadow-md"
+          />
           <div className="w-6/12">
             <h1 className="text-4xl font-bold my-5">
               Universitas Bina Mandiri
